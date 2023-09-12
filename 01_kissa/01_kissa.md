@@ -39,6 +39,7 @@
 
 
 ```c#
+//Esimerkkiä toiseen vaiheeseen
 
 	public class Kissa // Luokan nimi
 	{
@@ -54,10 +55,11 @@
 			this.ika=ika;
 			this.nimi=nimi;
 		}
-		public void AsetaKissanNimi(string nimi ) // metodi
+		public void AsetaKissanNimi(string name ) // metodi
 		{
-			this.nimi=nimi;
+			this.nimi=name;
 		}
+	}
 ```
 ## Vaihe 3 
 
