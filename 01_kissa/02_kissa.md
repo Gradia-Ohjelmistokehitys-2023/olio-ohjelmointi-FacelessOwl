@@ -14,7 +14,7 @@
 	c. Jos nimi on jotain muuta, palauttaa metodi arvon true ja asettaa nimen oliolle.
 	d. Nimi voi olla kirjoitettu joko pienellä tai isoilla kirjaimilla Se ei saa sotkea tarkistusta. Esim. hilda HiLDa jne.
 	
-	Valmiissa metodeissa on myös selite, jonka Visual Studion intelliSense tuo näkyviin hiiren ollessa metodin päällä
+	Valmiissa metodeissa on myös [selite](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments) , jonka Visual Studion intelliSense tuo näkyviin hiiren ollessa metodin päällä
 
 ## 3. Tee Main() metodissa seuraavat:
 	a. Luo uusi kissa-olio laita muuttuja nimeksi katti. 
