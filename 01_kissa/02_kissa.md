@@ -15,6 +15,8 @@
 	d. Nimi voi olla kirjoitettu joko pienellä tai isoilla kirjaimilla Se ei saa sotkea tarkistusta. Esim. hilda HiLDa jne.
 	
 	Valmiissa metodeissa on myös selite, jonka Visual Studion intelliSense tuo näkyviin hiiren ollessa metodin päällä
+[Ohje seliteen tekoon](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments) 
+ 	
 
 ## 3. Tee Main() metodissa seuraavat:
 	a. Luo uusi kissa-olio laita muuttuja nimeksi katti. 
@@ -23,6 +25,8 @@
 	d. Asetat katin nimeksi "Hilda" ja tulostat onnistuuko se vai ei.
 	e. Tulostat perään katin sen hetkisen nimen.
 	f. Koska tulostamme kissan tietoja joka tehtävässä, aseta kissalle oletusnimi "Miuku" ja oletus ikä 1. 
-	   Eli jos kissa oliota luodessa mitään tietoja ei anneta nuo asetataan kissalle. Testaa ohjelmalla että oletus nimi ja ikä toimivat ja saat muutettua niitä.
+	   Jos kissa oliota luodessa mitään tietoja ei anneta, nuo asetataan kissalle. 
+	
+ 	Testaa ohjelmalla että oletus nimi ja ikä toimivat ja saat muutettua niitä.
 
 [Siirry tehtävän seuraavaan vaiheeseen](03_kissa.md)
