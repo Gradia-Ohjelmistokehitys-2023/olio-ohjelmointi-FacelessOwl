@@ -10,5 +10,6 @@ Lab3 Ohjeet: [If- Else](https://www.w3schools.com/cs/cs_conditions.php) ja [Swit
 Lab4 Ohjeet: Toisto [While](https://www.w3schools.com/cs/cs_while_loop.php) ja [For](https://www.w3schools.com/cs/cs_for_loop.php)
 
 Lab5 [Funktiot eli Metodit](https://www.w3schools.com/cs/cs_methods.php)
+Lab6 Kertaus
 
 
