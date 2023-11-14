@@ -42,12 +42,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdFIDeYjLcmRENhfZC16feD6/TJ1WrpSAfBkxr2v2+
 Tämä tehdään vain kerran kurssin aluksi. Olet saanut itsellesi linkin github-classroomiin, joka luo sinulle automaattisesti repositoryn. Valitse oma nimesi listasta.
 
 1. Avaa GitBash hakemistoon jonka alle haluat tehtäväkansion. Tämä onnistuu klikkaamalla oikealla hiirennapilla hakemistoa Windows Explorerissa ja valitsemalla "Avaa GitBash tässä."
-2. kirjoita komento ```git clone "oma repository, joka löytyy Code napin takaa GitHubista" esim. git@github.com:Gradia-Ohjelmistokehitys-k2022/unittests-pohja.git```
+2. kirjoita komento ```git clone "oma repository, joka löytyy Code napin takaa GitHubista" esim. git@github.com:Gradia-Ohjelmistokehitys-k2023/kurssiNimi-pohja.git```
 
 # Uusien tehtävänantojen hakeminen
 Kaikki tämä tehdään GitBashissä harjoitustehtävän hakemistossa.
 1. ```git status``` - tarkista että olet main haarassa (branch), ja että sinulla ei ole avoimia muutoksia (jotka näkyvät punaisena tai vihreänä). Mikäli niitä on, tallenna ne ensin komennoilla ```git add .```, ```git commit -m "Muutokset talteen."```.
-2. <mark>Tämä tehdään vain kerran.</mark> Lisätään alkuperäinen pohja haettavaksi seuraavalla komennolla, jos muutoksia materiaaleihin tulee.```git remote add upstream https://github.com/Gradia-Ohjelmistokehitys-k2022/Olio-ohjelmoinnin-perusteet-pohja```
+2. <mark>Tämä tehdään vain kerran.</mark> Lisätään alkuperäinen pohja haettavaksi seuraavalla komennolla, jos muutoksia materiaaleihin tulee.```git remote add upstream https://github.com/Gradia-Ohjelmistokehitys-2023/PohjaOlioOhjelmointi```
 3. Haetaan uusin versio upstreamista ``git pull upstream main --allow-unrelated-histories`` --allow-unrelated-histories voi ratkaista githubclassroomiin liittyviä ongelmia.
 4. Jos merge conflicteja tulee, niin ne ratkotaan :) Esim. visual studio 2022 on helppo työkalu confliktien ratkomiselle.
 
