@@ -8,8 +8,8 @@ namespace names
             string firstname = Console.ReadLine();
             Console.WriteLine("Enter your lastname:");
             string lastname = Console.ReadLine();
-            Console.WriteLine("Firstname is:" + firstname);
-            Console.WriteLine("Lastname is:" + lastname);
+            Console.WriteLine("Hello " + firstname +" " + lastname);
+           
 
         } 
             

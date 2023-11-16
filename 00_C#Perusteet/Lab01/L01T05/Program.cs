@@ -7,13 +7,12 @@
             Console.WriteLine("Euros: ");
             string Euros = Console.ReadLine();
             int a = int.Parse(Euros);
-            Double eur = a;
             Console.WriteLine("Cents: ");
             string Cent= Console.ReadLine();
-            int y = int.Parse(Cent);
-            Double D = (y/100 );
-            Double sum = eur + D;
-            Console.Write("You have:" + sum+D);
+            float y = int.Parse(Cent);
+            float cent = y / 100;
+            float sum = a + cent;
+            Console.Write("You have:" + sum);
         }
     }
 }
