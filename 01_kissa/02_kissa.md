@@ -8,7 +8,7 @@
 	d. Palauttaa boolean tiedon tehtiinkö muutos
 	e. Hyödynnä palautus arvoa Main metodissa.
 
-## 2. Luo uusi metodi AsetaKissanNimi(string uusiNimi):
+## 2. Muokkaa metodia AsetaKissanNimi(string uusiNimi):
 	a. Se ei hyväksy enää nimeä "Hilda".
 	b. Jos nimi on "Hilda", palauttaa metodi arvon false.
 	c. Jos nimi on jotain muuta, palauttaa metodi arvon true ja asettaa nimen oliolle.
