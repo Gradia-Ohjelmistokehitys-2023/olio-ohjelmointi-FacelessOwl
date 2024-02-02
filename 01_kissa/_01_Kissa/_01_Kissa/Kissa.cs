@@ -14,7 +14,7 @@ namespace _01_Kissa
         public Kissa()
         {
             _age = 0;
-            _name = "ei nimeä";
+            _name = "no name";
         }
         public Kissa(int age, string name)
         {
