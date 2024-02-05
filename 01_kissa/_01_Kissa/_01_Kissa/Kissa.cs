@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace _01_Kissa
@@ -13,25 +14,32 @@ namespace _01_Kissa
 
         public Kissa()
         {
-            _age = 0;
+            _age = 4;
             _name = "no name";
         }
-        public Kissa(int age, string name)
+        public Kissa(int Age, string Name)
         {
-            _age = age;
-            _name = name;
+            _age = Age;
+            _name = Name;
         }
-        public void SetCatName(string newname)
+        public void SetCatName(string NewName)
         {
-            _name = newname;
+            _name = NewName;
         }
+
         public string ReturnCatName()
         {
             return _name;
         }
-        public int ReturnCatAge()
+        public int ReturnCatAge 
         {
-            return _age;
-        }
+            get 
+            {
+                return _age;
+            }
+                
+        } 
+        
+        
     }
 }
