@@ -78,4 +78,4 @@ Listaa nykyisen haarasi (branchin) viimeisimmän version, sekä kaikki sitä suo
 Piirtää konsoliin graafin koko repositorion sisällöstä. Kaikkien haarojen kaikki versiot yhtenä (isona) tekstigrafiikkakuvana.
 
 ## Materiaali
-Kurssin materiaali on lisensoitu Creative Commons BY-NC-SA 4.0 -lisenssillä, joten voit käyttää ja levittää sitä vapaasti.
+Kurssin materiaali on lisensoitu Creative Commons BY-NC-SA 4.0 -lisenssillä, joten voit käyttää ja levittää sitä vapaasti. Tehtävien 02 Pilli - 08 Maksukortti tehtävänaanot ovat https://ohjelmointi-20.mooc.fi/osa-4/1-johdatus-olio-ohjelmointiin kurssilta
