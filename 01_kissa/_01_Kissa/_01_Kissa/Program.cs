@@ -12,6 +12,8 @@
             Console.WriteLine(cat._name);
             Console.WriteLine(cat.ReturnCatAge);
             Console.WriteLine(kissa._name +" "+ kissa.ReturnCatAge);
+            cat.SetCatAge(1);
+            Console.WriteLine(cat.ReturnCatAge);
         }
     }
 }

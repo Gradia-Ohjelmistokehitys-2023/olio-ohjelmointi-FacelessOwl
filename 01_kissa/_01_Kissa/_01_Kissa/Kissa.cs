@@ -31,14 +31,23 @@ namespace _01_Kissa
         {
             return _name;
         }
-        public int ReturnCatAge 
+        public int ReturnCatAge
         {
-            get 
+            get
             {
                 return _age;
             }
-                
-        } 
+
+        }
+        public void SetCatAge(int age)
+        {
+            if (age >= 0) 
+            {
+                _age = age;
+            }
+            
+        }
+        
         
         
     }
