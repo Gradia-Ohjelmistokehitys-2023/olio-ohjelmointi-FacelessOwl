@@ -55,7 +55,7 @@ Tee seuraavat toiminnot Ika-projektin pääohjelmaan:
 
 
 
-#### 4. Peri konstruktorit eläimeltä Kissa- ja Koira luokille. 
+#### 4. Aliluokan konstruktorin muuttaminen. 
 
 ##### 4.1 Lisää koiralle oliomuuttuja (string haukku), jonka lisäät koiran konstruktorissa.
 Lisää myös uusi metodi Haukku, joka tulostaa ruudulle haukku -kentän arvon.
