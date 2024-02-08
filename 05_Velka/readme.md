@@ -23,5 +23,5 @@ pikaVippi.TulostaSaldo();
 Esimerkkitulostus
 
 saldo: 1000  
-saldo: 1012
+saldo: 1120
 
