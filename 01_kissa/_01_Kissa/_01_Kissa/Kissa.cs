@@ -39,11 +39,11 @@ namespace _01_Kissa
             }
 
         }
-        public void SetCatAge(int age)
+        public void SetCatAge(int NewAge)
         {
-            if (age >= 0) 
+            if (NewAge >= 0) 
             {
-                _age = age;
+                _age = NewAge;
             }
             
         }
