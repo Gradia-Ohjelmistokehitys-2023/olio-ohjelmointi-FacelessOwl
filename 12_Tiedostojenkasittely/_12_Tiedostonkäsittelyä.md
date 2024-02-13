@@ -39,7 +39,7 @@ Tarkista tiedoston sisältö.
 - tarkista ennen avaamista onko teksti1.txt olemassa. Tee 12.1 -kohdan pääohjelman koodista tarvittaessa oma metodi +bool OnOlemassa(string nimi);
 Jos tiedosto on olemassa:
 - avaa tekstitiedosto teksti1.txt
-- lue rivit rivi kerrallaan a) taulukoksi b) listaksi c) merkkijonoksi (string)
+- lue rivit rivi kerrallaan a) taulukoksi - Array b) listaksi - List c) merkkijonoksi (string)
 - tulosta a, b ja c -kohtien tiedot
 - sulje tiedosto
 
