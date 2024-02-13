@@ -1,6 +1,8 @@
 # Tiedostojen käsittely C#-kielessä  
   
-https://www.c-sharpcorner.com/blogs/filestream-class-in-c-sharp1
+https://www.c-sharpcorner.com/blogs/filestream-class-in-c-sharp1/
+
+
 https://www.c-sharpcorner.com/article/working-with-c-sharp-streamreader/
 
 ## Osaamistavoitteita
