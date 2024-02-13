@@ -1,7 +1,7 @@
 # Tiedostojen käsittely C#-kielessä  
   
-https://dotnettutorials.net/lesson/filestream-class-in-csharp/  
-https://dotnettutorials.net/lesson/streamreader-and-streamwriter-in-csharp/
+https://www.c-sharpcorner.com/blogs/filestream-class-in-c-sharp1
+https://www.c-sharpcorner.com/article/working-with-c-sharp-streamreader/
 
 ## Osaamistavoitteita
 - Tiedostojen käsittely
