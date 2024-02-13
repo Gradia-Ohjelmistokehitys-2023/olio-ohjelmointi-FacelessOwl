@@ -1,10 +1,14 @@
-﻿namespace Pilli
+﻿namespace _Pilli
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Pilli sorsapilli = new Pilli("Kvaak");
+            Pilli kukkopilli = new Pilli("Peef");
+            sorsapilli.Soi();
+            kukkopilli.Soi();
+            sorsapilli.Soi();
         }
     }
 }
