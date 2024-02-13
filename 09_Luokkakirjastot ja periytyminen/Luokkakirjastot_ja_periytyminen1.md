@@ -25,7 +25,7 @@ Luo uusi solution ja valitse projektin tyypiksi .net Class Library. Nimeä kirja
  
 #### 3. Luo uudet Public metodit: 
 
-   - AsetaIka(), joka palauttaa bool:n, ottaa parametrina kokonaisluvun ja tarkistaa onko luku negatiivinen 
+   - AsetaIka(), joka palauttaa bool:n, ottaa parametrina kokonaisluvun. Tarkistaa onko luku negatiivinen ja jos ei ole asettaa sen ikä kenttään(field).
 
    - AsetaNimi, ei palauta mitään ja ottaa parametrina tekstin, joka asetetaan oliomuuttujaan
 
