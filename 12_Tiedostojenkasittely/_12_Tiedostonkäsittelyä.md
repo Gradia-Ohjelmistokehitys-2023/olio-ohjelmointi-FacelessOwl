@@ -62,13 +62,13 @@ Malli:
 H,e,l,l,o, ,w,o,r,l,d,!,
 
 ### 12.6. 
--Avaa (luo) tiedosto munbinaari.bin kirjoittamista varten. Vanha sisältö saa nollautua avattaessa.
--kirjoita tiedostoon liukuluku 3,14159265 ja kokonaisluku -1
--sulje tiedosto
--avaa tiedosto
--lue tiedostosta arvot float f ja int i ja tulosta ne.
--sulje tiedosto
--tarkastele tiedoston sisältöä tekstieditorilla (notepad tms.) ja kerro mitä näet. Vihje: ei saa näkyä 3,14159265-1
+-Avaa (luo) tiedosto munbinaari.bin kirjoittamista varten. Vanha sisältö saa nollautua avattaessa.  
+-kirjoita tiedostoon liukuluku 3,14159265 ja kokonaisluku -1  
+-sulje tiedosto  
+-avaa tiedosto  
+-lue tiedostosta arvot float f ja int i ja tulosta ne.  
+-sulje tiedosto  
+-tarkastele tiedoston sisältöä tekstieditorilla (notepad tms.) ja kerro mitä näet. Vihje: ei saa näkyä 3,14159265-1  
 
 ### 12.7
 Tee ohjelma, joka tulostaa hakemiston sisällön.
