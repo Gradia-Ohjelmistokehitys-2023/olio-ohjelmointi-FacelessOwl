@@ -11,6 +11,7 @@ namespace Eläinluokat
     {
         private int _age;
         public string _name;
+        public bool _onLihanSyoja;
         public Elain()
         {
             _age = 0;
@@ -21,7 +22,18 @@ namespace Eläinluokat
             _age = Age;
             _name = Name;
         }
-        public bool AsetaIka(int Uusiika)
+
+        
+
+        public void AsetaOnLihanSyoja()
+        {
+
+        }
+        public bool PalautaOnLihanSyoja()
+        {
+            return _onLihanSyoja;
+        }
+            public bool AsetaIka(int Uusiika)
         {
             if (Uusiika >= 0)
             {

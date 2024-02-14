@@ -1,4 +1,4 @@
-﻿namespace Ika
+﻿namespace ElainLuokat
 {
     internal class Program
     {
