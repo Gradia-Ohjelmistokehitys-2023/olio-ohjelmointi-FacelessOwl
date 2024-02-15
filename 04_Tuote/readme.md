@@ -15,11 +15,14 @@ Aloita uusi projekti (tai käytä tehtävässä annettua projektia).
 3. Tuotteen tulee toimia seuraavasti.
 ```c#
 Tuote aleTuote = new Tuote("banaani", 1.1, 13); 
-aleTuote.TulostaTuote(); 
+aleTuote.TulostaTuote();
+Tuote lihaTuote = new Tuote("metukka", 15.3, 36); 
+lihaTuote.TulostaTuote(); 
 
 ```
 
 Esimerkkitulostus
 
 Banaani, hinta 1.1, 13 kpl
+metukka, hinta 15.3, 36 kpl
 
