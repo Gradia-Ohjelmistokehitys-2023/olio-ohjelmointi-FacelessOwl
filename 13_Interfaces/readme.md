@@ -3,6 +3,8 @@
 #### Description:
 This task aims to familiarize you with interfaces and their implementation in C#. You will create a simple console application that demonstrates the usage of interfaces and objects in a scenario involving performers.
 
+Read first: https://www.w3schools.com/cs/cs_interface.php
+
 #### Task Steps:
 
 1. **Set Up Your Project:**
