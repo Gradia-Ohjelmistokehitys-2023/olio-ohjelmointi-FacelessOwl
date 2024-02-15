@@ -37,7 +37,7 @@ Read first: https://www.w3schools.com/cs/cs_interface.php
 6. **Mantadory Enhancements:**
    - Add additional types of performers or properties/methods to your classes to extend the exercise.
    - Add new interface named IPublish
-         ```csharp
+     ```csharp
      interface IPublish
      {
         private List<string> _discoraphy
@@ -45,7 +45,9 @@ Read first: https://www.w3schools.com/cs/cs_interface.php
         void Publish(string name);
      }
      ```
-     -Singer class impelemnt both interfaces. Publish method adds new record to _discoraphy list. Test that singer object can publish new albums and you can print those to console.
+     - Singer class impelment both interfaces.
+     - Publish method adds new record to _discoraphy list.
+     - Test that singer object can publish new albums and you can print those to console.
 
 8. **Review and Reflect:**
    - Once you've completed the exercise, review your code and reflect on how interfaces helped in achieving polymorphism and code reusability.
