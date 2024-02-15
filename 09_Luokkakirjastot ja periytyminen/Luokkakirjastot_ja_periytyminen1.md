@@ -34,7 +34,7 @@ Luo uusi solution ja valitse projektin tyypiksi .net Class Library. Nimeä kirja
    - PalautaNimi, palauttaa tekstin, eikä ota parametreja
    
    - override string ToString(), jossa palautat elaimen tiedot.
-Esimerkki teksti "Eläimen nimi on Pekka ja ikä on 5"
+Esimerkki teksti " nimi on Pekka ja ikä on 5"
 
 #### 4. Luo vain Elain-luokkaan uusi oliomuuttuja , joka on kaikille eläimille yhteinen
 
