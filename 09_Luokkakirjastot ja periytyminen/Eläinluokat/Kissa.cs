@@ -20,6 +20,10 @@ namespace Eläinluokat
             _kehrays = kehrays;
            
         }
+        public string Kehrays()
+        {
+            return _kehrays;
+        }
         public override string ToString()
         {
             return "Kissan " + base.ToString()+" ja se kehrää näin "+_kehrays;

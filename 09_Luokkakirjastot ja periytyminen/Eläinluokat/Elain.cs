@@ -17,13 +17,13 @@ namespace Eläinluokat
             _ika = 0;
             _nimi = "ei nimeä";
         }
-        public Elain(int Ika, string Name)
+        public Elain(int ika, string nimi)
         {
-            _ika = Ika;
-            _nimi = Name;
+            _ika = ika;
+            _nimi = nimi;
         }
 
-        
+        public int Test {  get { return _ika; } }
 
         public void AsetaOnLihanSyoja(bool onLihanSyoja)
         {
@@ -33,34 +33,40 @@ namespace Eläinluokat
         {
             return _onLihanSyoja;
         }
-            public bool AsetaIka(int Uusiika)
+            public bool AsetaIka(int uusiika)
         {
-            if (Uusiika >= 0)
+            if (uusiika >= 0)
             {
-                _ika = Uusiika;
+                _ika = uusiika;
                 return true;
             }
             else
             {
                 return false;
+
             }
+
+            
             
         }
-        public void AsetaNimi(string Uusinimi)
+        public void AsetaNimi(string uusinimi)
         {
-            _nimi = Uusinimi;
+            _nimi = uusinimi;
         }
-        public int PalautaIka()
-        {
-            return _ika;
+        public int PalautaIka 
+        {  get 
+            { 
+                return _ika; 
+            } 
         }
+        
         public string PalautaNimi()
         {
             return _nimi;
         }
         public override string ToString()
         {
-            return "Nimi on "+_nimi+" ja ikä on "+_ika;
+            return "Nimi on " + _nimi + " ja ikä on " + _ika;
         }
 
 

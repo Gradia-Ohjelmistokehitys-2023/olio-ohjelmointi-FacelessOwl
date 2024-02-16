@@ -8,19 +8,19 @@ namespace Eläinluokat
 {
    public class Koira : Elain
     {
-        string _haukkuminen;
+        string _haukku;
 
         public Koira() : base() 
         {
-            _haukkuminen = "hau hau";
+            _haukku = "hau hau";
         }
         public Koira(int ika, string nimi, string haukkuminen) : base(ika, nimi)
         {
-            _haukkuminen = haukkuminen;
+            _haukku = haukkuminen;
         }
         public override string ToString()
         {
-            return "Koiran " + base.ToString() + " ja se haukkuu näin " + _haukkuminen;
+            return "Koiran " + base.ToString() + " ja se haukkuu näin " + _haukku;
         }
 
     }
