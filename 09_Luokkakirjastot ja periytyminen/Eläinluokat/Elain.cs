@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Eläinluokat
 {
-    public class Elain
+    public abstract class Elain
     {
         private int _ika;
         public string _nimi;
@@ -22,16 +22,24 @@ namespace Eläinluokat
             _ika = ika;
             _nimi = nimi;
         }
-
-        public int Test {  get { return _ika; } }
-
         public void AsetaOnLihanSyoja(bool onLihanSyoja)
         {
             _onLihanSyoja = onLihanSyoja;
         }
+        
         public bool PalautaOnLihanSyoja()
         {
-            return _onLihanSyoja;
+            if (_onLihanSyoja == true)
+            {
+                Console.WriteLine("on lihansyöjä.");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("ei ole lihansyöjä.");
+                return false;
+            }
+            
         }
             public bool AsetaIka(int uusiika)
         {
@@ -66,10 +74,13 @@ namespace Eläinluokat
         }
         public override string ToString()
         {
-            return "Nimi on " + _nimi + " ja ikä on " + _ika;
+            return "nimi on " + _nimi + ", ikä on " + _ika + " ja " + PalautaOnLihanSyoja();
         }
 
-
+        public virtual string Aantele()
+        {
+            return "Umph!";
+        }
 
     }
 }

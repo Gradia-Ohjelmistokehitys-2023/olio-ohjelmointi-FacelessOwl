@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Eläinluokat
 {
-   public class Koira : Elain
+   public class Koira : Nisakkaat
     {
         string _haukku;
 
@@ -21,6 +21,11 @@ namespace Eläinluokat
         public override string ToString()
         {
             return "Koiran " + base.ToString() + " ja se haukkuu näin " + _haukku;
+        }
+        public override string Aantele()
+        {
+            Console.WriteLine("Hau!");
+            return base.Aantele();
         }
 
     }

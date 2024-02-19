@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Eläinluokat
 {
-    public class Kissa : Elain
+    public class Kissa : Nisakkaat
     {
         string _kehrays;
 
@@ -20,14 +20,19 @@ namespace Eläinluokat
             _kehrays = kehrays;
            
         }
-        public string Kehrays()
+        public void Kehrays()
         {
-            return _kehrays;
+            Console.WriteLine(_kehrays);
         }
+        
         public override string ToString()
         {
             return "Kissan " + base.ToString()+" ja se kehrää näin "+_kehrays;
         }
-
+        public override string Aantele()
+        {
+            Console.WriteLine("Miau!");
+            return base.Aantele();
+        }
     }
 }
