@@ -10,8 +10,8 @@ namespace Eläinluokat
     public abstract class Elain
     {
         private int _ika;
-        public string _nimi;
-        public bool _onLihanSyoja;
+        private string _nimi;
+        private bool _onLihanSyoja;
         public Elain()
         {
             _ika = 0;

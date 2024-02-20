@@ -8,7 +8,7 @@ namespace Eläinluokat
 {
     public abstract class Linnut : Elain
     {
-        int _siipivali;
+        private int _siipivali;
         public Linnut() :base()
         {
             _siipivali = 5;

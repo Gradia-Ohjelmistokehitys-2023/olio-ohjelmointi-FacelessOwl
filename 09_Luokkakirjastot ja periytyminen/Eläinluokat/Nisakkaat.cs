@@ -8,7 +8,7 @@ namespace Eläinluokat
 {
     public abstract class Nisakkaat : Elain
     {
-        int _turkinpaksuus;
+        private int _turkinpaksuus;
         public Nisakkaat() :base()
         {
             _turkinpaksuus = 3;
