@@ -74,7 +74,15 @@ namespace Eläinluokat
         }
         public override string ToString()
         {
-            return "nimi on " + _nimi + ", ikä on " + _ika + " ja " + PalautaOnLihanSyoja();
+            if (_onLihanSyoja == true)
+            {
+                return "nimi on " + _nimi + ", ikä on " + _ika+", on lihansyöjä";
+            }
+            else 
+            {
+                return "nimi on " + _nimi + ", ikä on " + _ika + ", ei ole lihansyöjä";
+            }
+            
         }
 
         public virtual string Aantele()

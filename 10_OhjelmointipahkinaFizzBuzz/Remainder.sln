@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remainder", "Remainder.csproj", "{0EBC06AD-B32D-423A-B460-FBCD5447D09C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_OhjelmointipahkinaFizzBuzz", "10_OhjelmointipahkinaFizzBuzz\10_OhjelmointipahkinaFizzBuzz.csproj", "{F2D2E778-BCE0-4727-9F8F-E62FA3FF02D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0EBC06AD-B32D-423A-B460-FBCD5447D09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EBC06AD-B32D-423A-B460-FBCD5447D09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EBC06AD-B32D-423A-B460-FBCD5447D09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D2E778-BCE0-4727-9F8F-E62FA3FF02D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D2E778-BCE0-4727-9F8F-E62FA3FF02D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D2E778-BCE0-4727-9F8F-E62FA3FF02D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D2E778-BCE0-4727-9F8F-E62FA3FF02D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

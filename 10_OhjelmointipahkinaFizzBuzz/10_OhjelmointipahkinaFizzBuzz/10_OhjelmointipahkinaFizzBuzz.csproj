@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_10_OhjelmointipahkinaFizzBuzz</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eläinluokat">
+      <HintPath>..\..\09_Luokkakirjastot ja periytyminen\Eläinluokat\bin\Debug\net7.0\Eläinluokat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
