@@ -15,6 +15,7 @@ namespace Eläinluokat
         {
             _kehrays = "hrrr";
             _raapii_ihmisia = true;
+
         }
 
         public Kissa(int ika,string name, string kehrays) : base(ika,name)
@@ -29,7 +30,15 @@ namespace Eläinluokat
         
         public override string ToString()
         {
-            return "Kissan " + base.ToString()+" ja se kehrää näin "+_kehrays;
+            if (_raapii_ihmisia==true)
+            {
+                return "Kissan " + base.ToString() + ", raapii ihmisiä ja se kehrää näin " + _kehrays;
+            }
+            else
+            {
+                return "Kissan " + base.ToString() + ", ei raavi ihmisiä ja se kehrää näin " + _kehrays;
+            }
+            
         }
         public override string Aantele()
         {

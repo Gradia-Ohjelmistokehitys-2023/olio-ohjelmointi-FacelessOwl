@@ -13,7 +13,7 @@ namespace Eläinluokat
         {
             _turkinpaksuus = 3;
         }
-        public Nisakkaat(int ika, string nimi) : base(ika, nimi)
+        public Nisakkaat(int ika, string nimi) : base(ika, nimi) 
         {
 
         }

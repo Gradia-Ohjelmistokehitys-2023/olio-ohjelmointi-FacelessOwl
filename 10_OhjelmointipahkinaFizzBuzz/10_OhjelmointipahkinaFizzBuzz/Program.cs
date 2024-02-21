@@ -57,7 +57,6 @@ namespace _10_OhjelmointipahkinaFizzBuzz
                     int _elainika = random.Next(1, 16);
                     kissa.AsetaIka(_elainika);
                     elaimet.Add(kissa);
-                    Console.WriteLine("mennyt");
                 }
                 else if (_koiranvuoro == 1)
                 {
@@ -86,16 +85,17 @@ namespace _10_OhjelmointipahkinaFizzBuzz
                     elaimet.Add(papukaija);
                 }
                 _vuoro++;
-                if (j == 1)
-                {
-                    elaimet.ForEach(i => Console.WriteLine("{0}\t", i));
-                }
+            }
+            
+          //  elaimet.ForEach(i => Console.WriteLine("{0}\t", i));
+            
+            foreach(Kissa koe in elaimet.OfType<Kissa>())
+            {
+                Console.WriteLine( koe );
             }
 
-            
-
-
         }
+        
         private static int Muutavuoroa(int elukanVuoro)
         {
             if(elukanVuoro == 1)

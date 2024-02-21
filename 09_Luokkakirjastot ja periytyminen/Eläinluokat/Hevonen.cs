@@ -19,7 +19,15 @@ namespace Eläinluokat
         }
         public override string ToString() 
         {
-            return "Hevosen "+base.ToString();
+            if (_onkilpahevonen==true)
+            {
+                return "Hevosen " + base.ToString()+" ja se on kilpahevonen";
+            }
+            else
+            {
+                return "Hevosen " + base.ToString()+" ja se ei ole kilpahevonen";
+            }
+            
         }
     }
 }

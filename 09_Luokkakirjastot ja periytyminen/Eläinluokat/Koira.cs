@@ -22,7 +22,17 @@ namespace Eläinluokat
         }
         public override string ToString()
         {
-            return "Koiran " + base.ToString() + " ja se haukkuu näin " + _haukku;
+            if (_ihmisenparaskaveri==true)
+            {
+                return "Koiran " + base.ToString() + 
+                    ", on ihmisen paraskaveri ja se haukkuu näin " + _haukku;
+            }
+            else
+            {
+                return "Koiran " + base.ToString() + 
+                    ", ei ole ihmisen paraskaveri jase haukkuu näin " + _haukku;
+            }
+            
         }
         public override string Aantele()
         {

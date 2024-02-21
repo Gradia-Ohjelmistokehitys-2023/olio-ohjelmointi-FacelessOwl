@@ -19,7 +19,16 @@ namespace Eläinluokat
         }
         public override string ToString()
         {
-            return "Papukaijan "+base.ToString();
+            if (_toistaasanoja==true)
+            {
+                return "Papukaijan " + base.ToString()+" ja se toistaa sanoja";
+            }
+            else 
+            {
+                return "Papukaijan " + base.ToString()+" ja se ei toista sanoja";
+            }
+
+           
         }
     }
 }
