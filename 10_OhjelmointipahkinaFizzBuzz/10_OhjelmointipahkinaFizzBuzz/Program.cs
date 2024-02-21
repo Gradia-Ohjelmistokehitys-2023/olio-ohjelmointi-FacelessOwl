@@ -87,12 +87,15 @@ namespace _10_OhjelmointipahkinaFizzBuzz
                 _vuoro++;
             }
             
-          //  elaimet.ForEach(i => Console.WriteLine("{0}\t", i));
-            
-            foreach(Kissa koe in elaimet.OfType<Kissa>())
+           // elaimet.ForEach(i => Console.WriteLine("{0}\t", i));
+
+            foreach(Elain koe in elaimet)
             {
-                Console.WriteLine( koe );
+                Elain testi = koe;
+                Console.WriteLine(testi);
             }
+            
+            
 
         }
         
