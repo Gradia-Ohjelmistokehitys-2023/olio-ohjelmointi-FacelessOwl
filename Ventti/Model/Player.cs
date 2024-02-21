@@ -8,7 +8,7 @@
         private bool _busted; 
 
         public string Name { get => _name; }
-        public int HandValue { get => _handValue; set => _handValue = value; } 
+        public int HandValue { get => _handValue; set => _handValue = value; }
                                     
         public bool Busted
         {
@@ -30,17 +30,25 @@
             }
         }
     
-        public Player(string name, int MaxValue)
+        public Player(string name)
         {
             _name = name;
             _hand = new List<Card>();
-            Busted = false;
-            
+            Init();
+
         }
         public void GetCard(Card newCard)
         {
             Hand.Add(newCard);
+       
         }
+
+        public void Init()
+        {
+            _handValue = 0;
+            Busted = false;
+        }
+
         public event EventHandler Lost;
 
     }

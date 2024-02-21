@@ -3,8 +3,8 @@
     public class GameVenttiModel : IModel
     {
         private Deck _deck = new Deck();
-        private Player _player = new Player("You",21);
-        private Player _dealer = new Player("Dealer",21);
+        private Player _player = new Player("You");
+        private Player _dealer = new Player("Dealer");
         public Player Player => _player;
         public Player Dealer => _dealer;
         public Deck Deck => _deck;
@@ -12,12 +12,17 @@
         
         public Card DealCard(Player inAction)
         {
-            Card drawnCard = Deck.DealTopCard();
+            Card drawnCard = Deck.DealTopCard();           
             inAction.GetCard(drawnCard);
-            inAction.HandValue += GetCardValue(drawnCard);
-            if (inAction.HandValue > 21)
+            int total = 0;
+            foreach(Card card in inAction.Hand)
             {
-                inAction.HandValue = 0;
+                 total+= GetCardValue(card);
+            }
+            inAction.HandValue= total;
+
+            if (inAction.HandValue > 21)
+            {          
                 inAction.Busted = true;
             }
             return drawnCard;
@@ -43,25 +48,25 @@
         {
             string winner = "";
 
-            if (Dealer.HandValue > Player.HandValue)
+            if (Dealer.HandValue >= Player.HandValue && !Dealer.Busted)
             {
                 winner = Dealer.Name;
             }
-            else if (Dealer.HandValue < Player.HandValue)
+            else if (!Player.Busted)
             {
                 winner = Player.Name;
             }
+        
             return winner;
         }
 
         public void ResetGame()
         {
             Deck.CollectHand(Player.Hand);
-            Player.HandValue=0;
-            Player.Busted=false;
+            Player.Init();
+            
             Deck.CollectHand(Dealer.Hand);
-            Dealer.HandValue=0;
-            Dealer.Busted = false;
+            Dealer.Init();
         }
 
  
