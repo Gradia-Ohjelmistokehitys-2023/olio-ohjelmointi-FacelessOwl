@@ -8,13 +8,18 @@ namespace Eläinluokat
 {
     public class Hevonen : Nisakkaat
     {
+        bool _onkilpahevonen;
         public Hevonen() : base() 
         {
-            
+            _onkilpahevonen = false;
         }
         public Hevonen(int ika,string nimi) : base(ika,nimi)
         {
 
+        }
+        public override string ToString() 
+        {
+            return "Hevosen "+base.ToString();
         }
     }
 }

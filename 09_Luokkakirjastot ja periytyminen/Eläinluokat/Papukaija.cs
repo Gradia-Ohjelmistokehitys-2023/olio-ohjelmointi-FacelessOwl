@@ -8,9 +8,10 @@ namespace Eläinluokat
 {
     public class Papukaija : Linnut
     {
+        bool _toistaasanoja;
         public Papukaija() :base()
         {
-            
+            _toistaasanoja = true;
         }
         public Papukaija(int ika, string nimi) : base(ika,nimi)
         {

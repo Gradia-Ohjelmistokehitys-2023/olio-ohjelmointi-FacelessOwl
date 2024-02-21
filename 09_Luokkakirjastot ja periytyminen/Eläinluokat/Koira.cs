@@ -9,10 +9,12 @@ namespace Eläinluokat
    public class Koira : Nisakkaat
     {
         string _haukku;
+        bool _ihmisenparaskaveri;
 
         public Koira() : base() 
         {
             _haukku = "hau hau";
+            _ihmisenparaskaveri = true;
         }
         public Koira(int ika, string nimi, string haukkuminen) : base(ika, nimi)
         {

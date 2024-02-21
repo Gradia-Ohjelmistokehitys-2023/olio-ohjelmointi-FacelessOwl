@@ -9,10 +9,12 @@ namespace Eläinluokat
     public class Kissa : Nisakkaat
     {
         string _kehrays;
+        bool _raapii_ihmisia;
 
         public Kissa() : base()
         {
             _kehrays = "hrrr";
+            _raapii_ihmisia = true;
         }
 
         public Kissa(int ika,string name, string kehrays) : base(ika,name)

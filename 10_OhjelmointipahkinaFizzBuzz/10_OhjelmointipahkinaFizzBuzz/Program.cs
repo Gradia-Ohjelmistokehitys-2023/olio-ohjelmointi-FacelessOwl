@@ -11,12 +11,21 @@ namespace _10_OhjelmointipahkinaFizzBuzz
             int _kissanvuoro;
             int _koiranvuoro;
             int _papukaijanvuoro;
-           
+
             _kissanvuoro = 1;
             _koiranvuoro = 2;
             _papukaijanvuoro = 3;
             _vuoro = 1;
+
+            List<Elain> elaimet = new List<Elain>();
+
+            string[] nimet = new string[] 
+            {
+                "Matti","Pekka","Jukka","Nougat","Diego","Pedro","Tiitus","Kerttu","Manoliitto","Teresa"
+            };
             
+
+
 
             Console.WriteLine("Kuinka monta eläintä luodaan: ");
             string cycle = Console.ReadLine();
@@ -25,38 +34,66 @@ namespace _10_OhjelmointipahkinaFizzBuzz
             {
                 if (_vuoro % 4 == 0)
                 {
-                    Console.WriteLine("Hevonen");
+                    Hevonen hevonen = new Hevonen();
                     _kissanvuoro = Muutavuoroa(_kissanvuoro);
                     _koiranvuoro = Muutavuoroa(_koiranvuoro);
                     _papukaijanvuoro = Muutavuoroa(_papukaijanvuoro);
-
+                    Random random = new Random();
+                    int index = random.Next(nimet.Length);
+                    hevonen.AsetaNimi($"{nimet[index]}");
+                    int _elainika = random.Next(1,16);
+                    hevonen.AsetaIka( _elainika );
+                    elaimet.Add(hevonen);
                 }
                 else if (_kissanvuoro == 1)
                 {
-                    Console.WriteLine("Kissa");
+                    Kissa kissa = new Kissa();
                     _kissanvuoro = Muutavuoroa(_kissanvuoro);
                     _koiranvuoro = Muutavuoroa(_koiranvuoro);
                     _papukaijanvuoro = Muutavuoroa(_papukaijanvuoro);
-
+                    Random random = new Random();
+                    int index = random.Next(nimet.Length);
+                    kissa.AsetaNimi($"{nimet[index]}");
+                    int _elainika = random.Next(1, 16);
+                    kissa.AsetaIka(_elainika);
+                    elaimet.Add(kissa);
+                    Console.WriteLine("mennyt");
                 }
                 else if (_koiranvuoro == 1)
                 {
-                    Console.WriteLine("Koira");
+                    Koira koira = new Koira();
                     _kissanvuoro = Muutavuoroa(_kissanvuoro);
                     _koiranvuoro = Muutavuoroa(_koiranvuoro);
                     _papukaijanvuoro = Muutavuoroa(_papukaijanvuoro);
+                    Random random = new Random();
+                    int index = random.Next(nimet.Length);
+                    koira.AsetaNimi($"{nimet[index]}");
+                    int _elainika = random.Next(1, 16);
+                    koira.AsetaIka(_elainika);
+                    elaimet.Add(koira);
                 }
                 else 
                 {
-                    Console.WriteLine("Papukaija");
+                    Papukaija papukaija = new Papukaija();
                     _kissanvuoro = Muutavuoroa(_kissanvuoro);
                     _koiranvuoro = Muutavuoroa(_koiranvuoro);
                     _papukaijanvuoro = Muutavuoroa(_papukaijanvuoro);
+                    Random random = new Random();
+                    int index = random.Next(nimet.Length);
+                    papukaija.AsetaNimi($"{nimet[index]}");
+                    int _elainika = random.Next(1, 16);
+                    papukaija.AsetaIka(_elainika);
+                    elaimet.Add(papukaija);
                 }
                 _vuoro++;
+                if (j == 1)
+                {
+                    elaimet.ForEach(i => Console.WriteLine("{0}\t", i));
+                }
             }
 
-           
+            
+
 
         }
         private static int Muutavuoroa(int elukanVuoro)
