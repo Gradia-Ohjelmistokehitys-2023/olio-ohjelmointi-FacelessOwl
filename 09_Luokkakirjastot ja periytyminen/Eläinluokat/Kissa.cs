@@ -11,6 +11,8 @@ namespace Eläinluokat
         string _kehrays;
         bool _raapii_ihmisia;
 
+        List<Elain> emonpennut = new List<Elain>();
+       
         public Kissa() : base()
         {
             _kehrays = "hrrr";
@@ -44,6 +46,12 @@ namespace Eläinluokat
         {
             Console.WriteLine("Miau!");
             return base.Aantele();
+        }
+        public int LisaaPentu()
+        {
+            Kissa kissa = new Kissa();
+            emonpennut.Add(kissa);
+            return emonpennut.Count;
         }
     }
 }

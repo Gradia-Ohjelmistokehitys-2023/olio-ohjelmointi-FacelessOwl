@@ -30,6 +30,7 @@ namespace Periytyminen
             papu.AsetaOnLihanSyoja(false);
             Console.WriteLine(papu);
             papu.PalautaOnLihanSyoja();
+            katti.LisaaPentu();
         }
     }
 }
