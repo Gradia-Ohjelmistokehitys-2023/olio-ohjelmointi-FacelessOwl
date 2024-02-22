@@ -10,6 +10,7 @@ namespace Eläinluokat
     {
         string _kehrays;
         bool _raapii_ihmisia;
+        int _pentujenmaara;
 
         List<Elain> emonpennut = new List<Elain>();
        
@@ -51,7 +52,8 @@ namespace Eläinluokat
         {
             Kissa kissa = new Kissa();
             emonpennut.Add(kissa);
-            return emonpennut.Count;
+            _pentujenmaara = emonpennut.Count;
+            return _pentujenmaara;
         }
     }
 }
