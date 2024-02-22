@@ -1,4 +1,5 @@
 ﻿using Eläinluokat;
+using System;
 namespace Periytyminen
 {
     internal class Program
@@ -31,6 +32,18 @@ namespace Periytyminen
             Console.WriteLine(papu);
             papu.PalautaOnLihanSyoja();
             katti.LisaaPentu();
+            {
+                
+                Kissa kissa2 = new Kissa();
+                katti.LisaaPentu();
+                kissa2.LisaaPentu();
+                katti.LisaaPentu();
+                kissa2.LisaaPentu();
+                Console.WriteLine(katti.LisaaPentu());
+                Console.WriteLine(kissa2.LisaaPentu());
+                katti.TulostaPennut();
+                
+            }
         }
     }
 }

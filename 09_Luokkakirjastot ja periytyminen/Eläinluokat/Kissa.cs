@@ -11,6 +11,7 @@ namespace Eläinluokat
         string _kehrays;
         bool _raapii_ihmisia;
         int _pentujenmaara;
+        Kissa _emo;
 
         List<Elain> emonpennut = new List<Elain>();
        
@@ -35,11 +36,11 @@ namespace Eläinluokat
         {
             if (_raapii_ihmisia==true)
             {
-                return "Kissan " + base.ToString() + ", raapii ihmisiä ja se kehrää näin " + _kehrays;
+                return "Kissan " + base.ToString() + ", raapii ihmisiä ja se kehrää näin " + _kehrays+" emo "+_emo.PalautaNimi();
             }
             else
             {
-                return "Kissan " + base.ToString() + ", ei raavi ihmisiä ja se kehrää näin " + _kehrays;
+                return "Kissan " + base.ToString() + ", ei raavi ihmisiä ja se kehrää näin " + _kehrays+" emo "+_emo;
             }
             
         }
@@ -50,10 +51,21 @@ namespace Eläinluokat
         }
         public int LisaaPentu()
         {
+            
             Kissa kissa = new Kissa();
             emonpennut.Add(kissa);
+            kissa._emo = this;
             _pentujenmaara = emonpennut.Count;
             return _pentujenmaara;
+                
+        }
+        public void TulostaPennut()
+        {
+            foreach (Kissa kissa in emonpennut)
+            {
+                Kissa pentu = kissa;
+                Console.WriteLine(pentu);
+            }
         }
     }
 }
