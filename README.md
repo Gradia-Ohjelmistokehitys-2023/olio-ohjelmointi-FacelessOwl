@@ -3,6 +3,8 @@ Gradia olio-ohjelmointi kurssin arkisto (repository).
 
 Jokainen tehtävä sijoitetaan tänne omaan hakemistoonsa. 
 
+Opetusvideo https://youtu.be/GhQdlIFylQ8?t=12278
+
 C#-kirja löytyy http://www.csharpcourse.com/ linkin takaa.  
 Voit myös käyttää avuksi online materiaalia https://www.w3schools.com/cs/cs_oop.php  
 
