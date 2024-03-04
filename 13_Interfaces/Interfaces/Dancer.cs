@@ -8,10 +8,11 @@ namespace Interfaces
 {
     public class Dancer : IPerformAction
     {
-        public void PerformAction(string newaction)
+        public void PerformAction()
         {
-            Console.WriteLine(newaction);
+            Console.WriteLine("The dancer performs a stage dan");
         }
+        
         
 
     }
