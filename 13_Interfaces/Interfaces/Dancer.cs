@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    internal class Dancer
+    public class Dancer : IPerformAction
     {
+        public void PerformAction(string newaction)
+        {
+            Console.WriteLine(newaction);
+        }
+        
+
     }
 }

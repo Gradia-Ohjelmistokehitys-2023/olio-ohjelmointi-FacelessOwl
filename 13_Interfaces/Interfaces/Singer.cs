@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    internal class Singer
+    public class Singer : IPerformAction
     {
+        public void PerformAction(string newaction)
+        {
+            Console.WriteLine(newaction);
+        }
     }
 }
