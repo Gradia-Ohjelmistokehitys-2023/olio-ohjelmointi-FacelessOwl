@@ -10,7 +10,7 @@ namespace Interfaces
     {
         public void PerformAction()
         {
-            Console.WriteLine("The dancer performs a stage dan");
+            Console.WriteLine("The dancer performs a stage dance");
         }
         
         
