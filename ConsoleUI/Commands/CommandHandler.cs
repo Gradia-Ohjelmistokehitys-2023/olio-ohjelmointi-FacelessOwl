@@ -12,7 +12,7 @@ namespace ConsoleUI.Commands
         // Add here all new commands
         public static List<ICommand> commands = new List<ICommand>()
         {
-            new ClearCommand(),new ExitCommand()
+            new ClearCommand(),new ExitCommand(),new AboutCommand()
   
         };
         
