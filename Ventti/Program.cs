@@ -9,7 +9,7 @@ namespace TwentyOneCardGame
         private static void Main(string[] args)
         {
 
-            //  Console.OutputEncoding = System.Text.Encoding.UTF8;
+              Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             IView view = new ConsoleView();
             IModel model = new GameVenttiModel();

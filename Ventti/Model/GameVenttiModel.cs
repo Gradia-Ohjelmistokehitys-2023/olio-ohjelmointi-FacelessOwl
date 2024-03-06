@@ -1,4 +1,7 @@
-﻿namespace Ventti.Model
+﻿using System.Xml.Schema;
+using System.Xml.Serialization;
+
+namespace Ventti.Model
 {
     public class GameVenttiModel : IModel
     {
@@ -15,17 +18,52 @@
             Card drawnCard = Deck.DealTopCard();           
             inAction.GetCard(drawnCard);
             int total = 0;
-            foreach(Card card in inAction.Hand)
+            int aces = 0;
+            int acecounter = 0;
+
+            foreach (Card card in inAction.Hand)
             {
-                 total+= GetCardValue(card);
+                
+                if (card.Value == 1)
+                {
+                    aces++;
+                }
+                    
+                total = total + GetCardValue(card);
+                
             }
+                
+
+
             inAction.HandValue= total;
 
             if (inAction.HandValue > 21)
-            {          
-                inAction.Busted = true;
+            {
+                if (aces > acecounter)
+                {
+                    inAction.HandValue = total - 10;
+                    acecounter++;
+                    if (inAction.HandValue > 21)
+                    {
+                        inAction.Busted = true;
+                    }
+                }
+                else
+                {
+                    inAction.Busted = true;
+                }
+                
             }
             return drawnCard;
+        }
+
+        private int CountHandValue(int total, Card card)
+        {
+            {
+                total += GetCardValue(card);
+            }
+
+            return total;
         }
 
         private int GetCardValue(Card card)

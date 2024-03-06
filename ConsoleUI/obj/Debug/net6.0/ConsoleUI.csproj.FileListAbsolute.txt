@@ -1,0 +1,15 @@
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\bin\Debug\net6.0\ConsoleUI.exe
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\bin\Debug\net6.0\ConsoleUI.deps.json
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\bin\Debug\net6.0\ConsoleUI.runtimeconfig.json
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\bin\Debug\net6.0\ConsoleUI.dll
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\bin\Debug\net6.0\ConsoleUI.pdb
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfo.cs
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.sourcelink.json
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.dll
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\refint\ConsoleUI.dll
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
+C:\Users\gr289445\Desktop\koulu repo\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
