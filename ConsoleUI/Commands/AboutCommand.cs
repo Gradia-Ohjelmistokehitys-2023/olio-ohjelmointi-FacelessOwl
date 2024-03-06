@@ -14,8 +14,8 @@ namespace ConsoleUI.Commands
         public string Name { get { return "about"; } }
 
         public string HelpText { get { return "Prints developer. Possible atributes:" +
-                    "\t\t-f Shows text also in Finnish" +
-                    "\t\t-s Shows text also in Swedish"; } }
+                    "\n\t\t-f Shows text also in Finnish" +
+                    "\n\t\t-s Shows text also in Swedish"; } }
 
         public string? Execute(string[] args) 
         {
